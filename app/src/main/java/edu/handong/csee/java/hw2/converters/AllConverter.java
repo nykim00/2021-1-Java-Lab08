@@ -7,17 +7,20 @@ package edu.handong.csee.java.hw2.converters;
 public class AllConverter {
     private double fromValue;
     private String originalMeasure;
+    
     /**Set value that put in. */
     public AllConverter setFromValue(double fromValue){
         this.fromValue = fromValue;
         return this;
     }
+    
     /**Set original measure that put in. */
     public AllConverter setOriginalMeasure(String originalMeasure){
         
         this.originalMeasure = originalMeasure;
         return this;
     }
+    
     /**Convert all way that value can convert. */
     public void convertAndPrintOut(){
         if(originalMeasure.equals("TON")){

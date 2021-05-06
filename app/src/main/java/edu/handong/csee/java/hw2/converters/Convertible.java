@@ -7,14 +7,10 @@ public interface Convertible {
     /**Set value that put in. */
     public void setFromValue(double fromValue);
 
-    /**
-         *Get converted value.  
-         */ 
+    /**Get converted value.       */ 
     public double getConvertedValue();
 
-    /**
-         *Convert value. 
-     */ 
+    /**Convert value.      */ 
     public void convert();
 
 }

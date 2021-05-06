@@ -15,16 +15,14 @@ public class TONToGConverter implements Convertible {
         value=fromValue;
     }
  
-    /**
-         *Get converted value.  */ 
+    /**Get converted value.  */ 
     @Override
     public double getConvertedValue() {
         
         return value;
     }
  
-    /**
-         *Convert value Ton to G.  */ 
+    /**Convert value Ton to G.  */ 
     @Override
     public void convert() {
         

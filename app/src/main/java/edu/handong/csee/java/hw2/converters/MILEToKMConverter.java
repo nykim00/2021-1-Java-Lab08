@@ -15,16 +15,14 @@ public class MILEToKMConverter implements Convertible {
         value =fromValue;
     }
  
-    /**
-         *Get converted value.  */ 
+    /**Get converted value.  */ 
     @Override
     public double getConvertedValue() {
         
         return value;
     }
 
-    /**
-         *Convert value Mile to KM.  */ 
+    /**Convert value Mile to KM.  */ 
     @Override
     public void convert() {
         

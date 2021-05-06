@@ -16,8 +16,7 @@ public class TONToKGConverter implements Convertible {
     }
 
     
-    /**
-         *Get converted value. */
+    /**Get converted value. */
     @Override
     public double getConvertedValue() {
          
@@ -25,8 +24,7 @@ public class TONToKGConverter implements Convertible {
     }
 
     
-    /**
-         *Convert value Ton to KG. */
+    /**Convert value Ton to KG. */
     @Override
     public void convert() {
          
