@@ -16,9 +16,7 @@ public class KMToMConverter implements Convertible{
     }
 
     
-    /**
-         *Get converted value.  
-         */ 
+    /**Get converted value.  */ 
     @Override
     public double getConvertedValue() {
         
@@ -26,9 +24,7 @@ public class KMToMConverter implements Convertible{
     }
 
     
-    /**
-         *Convert value KM to M. 
-     */ 
+    /**Convert value KM to M. */ 
     @Override
     public void convert() {
         
