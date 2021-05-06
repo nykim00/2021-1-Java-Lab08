@@ -8,6 +8,7 @@ import edu.handong.csee.java.hw2.converters.*; // You will learn the import stat
 /**
  * This is a class of IntergratedConverter.
  * This class runs main method.
+ * This class integrated all class that convert unit.
  */
 
 public class IntegratedConverter {
